@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="dist/output.css" rel="stylesheet">
+  <link href="src/custom.css" rel="stylesheet">
+  <title>Character Details</title>
+</head>
+<body class="bg-gray-100">
+  <nav class="bg-blue-500 p-4 text-white">
+    <div class="container mx-auto flex items-center">
+      <div class="flex-grow">
+        <div class="text-2xl font-bold">Disney API</div>
+      </div>
+      <div class="block lg:hidden">
+        <button id="nav-toggle" class="focus:outline-none">
+          <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+        </button>
+      </div>
+      <div class="hidden w-full lg:flex lg:items-center lg:w-auto justify-end" id="nav-content">
+        <ul class="lg:flex lg:space-x-4">
+          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="movies.html" class="nav-link">Movies</a></li>
+          <li class="nav-item"><a href="tvshows.html" class="nav-link">TV Shows</a></li>
+          <li class="nav-item"><a href="videogames.html" class="nav-link">Video Games</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <main class="p-4">
+    <section>
+      <h1 id="character-name" class="text-3xl font-bold">Character Name</h1>
+      <article id="character-details" class="p-4 border rounded shadow bg-white">
+      </article>
+    </section>
+  </main>
+  <script src="src/character.js"></script>
+  <script src="src/nav.js"></script>
+</body>
+</html>

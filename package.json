@@ -1,0 +1,17 @@
+{
+  "name": "disney_api_project",
+  "version": "1.0.0",
+  "description": "A project to display Disney characters using the Disney API",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss build src/styles.css -o dist/output.css",
+    "start": "live-server"
+  },
+  "dependencies": {
+    "tailwindcss": "^2.2.19",
+    "live-server": "^1.2.1"
+  },
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
+}
